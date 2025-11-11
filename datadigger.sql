@@ -1,6 +1,6 @@
-create database datadigger;
+CREATE DATABASE datadigger;
 
-create table Customers(
+CREATE TABLE Customers(
 	CustomerID INT PRIMARY KEY ,
     Cname VARCHAR(100) NOT NULL,
     Email VARCHAR(100)  NOT NULL,
